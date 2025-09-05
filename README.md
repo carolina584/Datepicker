@@ -1,27 +1,83 @@
-*Datepicker*
+Datepicker: Automatización con Serenity BDD
 
-Comenzando 🚀 Estas instrucciones te permitirán conocer las tecnologias y herramientas utilizadas en la automatizacion.
+🚀 Comienza la automatización
+Aquí se encuentran las instrucciones para iniciar con la automatización. Conocerás las tecnologías y herramientas utilizadas.
 
-Pre-requisitos 📋 Tener instalado JDK y Jre con las versiones 11.0.18 las cuales se ubican en esta ruta cuando se instala el programa: C:\Program Files\Java\jdk11.0.18 --> C:\Program Files\Java\jre11.0.18 El sistema operativo usado es windows 11 de 64 bits Gradle: 5.2.1 IDE: Eclipse Intellij - Instalar los siguientes plugin en caso de no tenerlo: Distribucion de gradle y Cucumber.
+Pre-requisitos:
 
-Instalación 🔧 --Configurar las variables de entorno de JAVA (jdk y jre) en la variable path. Configurar variable de entorno de Gradle: se realiza el mismo paso de arriba se crea una nueva variable y se le asigna a path Se descarga y instala el IDE: Intellij 2023.2
+Tener instalado JDK y JRE en la versión 11.0.18. La ruta de instalación es C:\Program Files\Java\jdk11.0.18 y C:\Program Files\Java\jre11.0.18.
 
-Ejecutando las pruebas ⚙️ --Se debe correr el comando Gradle clean test aggregate para ejecutar la prueba automatizada --Gradle: especifca que vamos a utilizar gradle --clean: Limpia la prueba para generar una nueva -- test: corre la automatizacion --aggregate: Genera el reporte de las pruebas con Serenity Report
+El sistema operativo utilizado es Windows 11 de 64 bits.
 
-Construido con 🛠️ ---> Se utilizan las dependencias de Serenity core ---> Serenity con Junit, Serenity con Cucumber ----> Serenity Screenplay y Serenity WebDriver con la ultima version 2.0.91 --->Webdriver: 139.0.7258.67 ---> Navegador utilizado: Chome Versión 139.0.7258.67 (Build oficial) (64 bits)
+Gradle: versión 5.2.1.
 
-comandos para proyecto java con gradle desde consola:
-ir hacia ruta de proyecto
-desde ubicación de proyecto ir a la consola cmd
-ingresar gradle init
-seleccionar opción 6
-seleccionar opción 1 y enter
-seleccionar opción 1 (junit)
-ingresar name project
-ingresar source package se visualiza una seríe de carpetas importantes para iniciar con py.
-comandos ejecutar proyecto y generar reporte:
-ir hacia ruta de proyecto
-abrir consola cmd o git bash con clic derecho en el explorador de archivos
-ingresar gradle clean test agregate con esto se ejecuta la prueba y se genera reporte en la siguiente ubicación: C:\ubicacion_equipo\carpeta_proyecto\target\site\serenity
-seleccionar index.html y se visualiza reporte :)
-Autor ✒️ Carolina Muñoz
+IDE: Eclipse o Intellij.
+
+Plugins: Instala los plugins de Distribución de Gradle y Cucumber en tu IDE.
+
+🔧 Proceso de instalación
+Configura las variables de entorno de JAVA:
+
+Añade las rutas de JDK y JRE a la variable Path del sistema.
+
+Configura la variable de entorno de Gradle:
+
+Realiza el mismo paso anterior: crea una nueva variable y asígnala a Path.
+
+Descarga e instala el IDE:
+
+Utiliza Intellij 2023.2 o posterior.
+
+⚙️ Ejecutando las pruebas
+Para correr las pruebas automatizadas y generar el reporte, ejecuta el siguiente comando en la consola:
+
+gradle clean test aggregate
+gradle: indica que se usará Gradle.
+
+clean: limpia la prueba anterior para generar una nueva.
+
+test: corre la automatización.
+
+aggregate: genera el reporte de pruebas con Serenity Report.
+
+🛠️ Tecnologías utilizadas
+El proyecto está construido con las siguientes dependencias de Serenity:
+
+Serenity Core
+
+Serenity con Junit y Serenity con Cucumber
+
+Serenity Screenplay y Serenity WebDriver (última versión 2.0.91)
+
+WebDriver: 139.0.7258.67
+
+Navegador utilizado: Chrome versión 139.0.7258.67 (Build oficial) (64 bits)
+
+⌨️ Comandos para gestionar el proyecto
+Desde la consola para un proyecto Java con Gradle:
+Ve a la ruta del proyecto.
+
+Abre la consola (cmd) desde la ubicación del proyecto.
+
+Ingresa gradle init.
+
+Selecciona la opción 6.
+
+Selecciona la opción 1 y presiona Enter.
+
+Selecciona la opción 1 (junit).
+
+Ingresa el nombre del proyecto.
+
+Ingresa el nombre del paquete fuente. Con esto, se crean las carpetas importantes para iniciar el proyecto.
+
+Para ejecutar el proyecto y generar el reporte:
+Dirígete a la ruta del proyecto.
+
+Abre la consola (cmd o Git Bash).
+
+Ingresa gradle clean test aggregate.
+
+La prueba se ejecutará y el reporte se generará en la siguiente ubicación: C:\ubicacion_equipo\carpeta_proyecto\target\site\serenity.
+
+Abre el archivo index.html para visualizar el reporte.
