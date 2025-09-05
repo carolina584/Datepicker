@@ -81,3 +81,5 @@ Ingresa gradle clean test aggregate.
 La prueba se ejecutará y el reporte se generará en la siguiente ubicación: C:\ubicacion_equipo\carpeta_proyecto\target\site\serenity.
 
 Abre el archivo index.html para visualizar el reporte.
+
+Autor ✒️ Carolina Muñoz
